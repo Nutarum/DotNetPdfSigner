@@ -12,7 +12,7 @@ Aplicación C# que firma un PDF utilizando una firma digital registrada en windo
 * Guardar una imagen de la firma, con el nombre DNI+Letra.jpg (12345678A.jpg) dentro de la carpeta imagenes
 
 ## Utilización del programa
-* Desde la consola de comandos, ejecutar "./PdfSigner.exe 12345678A.jpg input.pdf output.pdf"
+* Desde la consola de comandos, ejecutar "./PdfSigner.exe 12345678A input.pdf output.pdf"
 	* Parametros obligatorios:
 		* DNI con letra
 		* Ruta del pdf a firmar

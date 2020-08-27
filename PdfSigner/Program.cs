@@ -22,6 +22,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -84,11 +85,20 @@ using System.Threading.Tasks;
 			PdfDocument doc = new PdfDocument(objReader);
 		  
 			StampingProperties properties = new StampingProperties();
-			//comento esta linea porque hace que la firma no sea visible en google chrome, en funcion de como se haya generado el pdf que estamos utilizando
-			//properties.UseAppendMode(); //dont invalidate old signatures
+
+			//esta linea hace que la firma no sea visible en google chrome, en funcion de como se haya generado el pdf que estamos utilizando
+            //pero es necesaria para que al firmar, no se rompan firmas antiguas
+			properties.UseAppendMode(); //dont invalidate old signatures
 			
 			 fileStream =  new FileStream(targetPdf, FileMode.Create);
-			 PdfSigner signer = new PdfSigner(objReader, fileStream, properties);
+
+             
+
+             //vamos a usar una modificación de PdfSigner, para que la firma sea visible tambien en google chrome
+             // solución sacada de una respuesta en este link
+             // https://stackoverflow.com/questions/57273587/visible-signature-created-using-itext-7-not-shown-in-chrome
+             //PdfSigner signer = new PdfSigner(objReader, fileStream, properties);
+             PdfSignerNoObjectStream signer = new PdfSignerNoObjectStream(objReader, fileStream, properties);
 
 			//la siguiente linea, certifica que el documento no ha sido modificado, el problema es que cualquier firma posterior en el documento invalida las firmas con este nivel
 			//signer.SetCertificationLevel(iText.Signatures.PdfSigner.CERTIFIED_FORM_FILLING_AND_ANNOTATIONS);
@@ -257,4 +267,20 @@ public class ImageExtractor : IEventListener {
 
     public ICollection<EventType> GetSupportedEvents() { return null; }
 
+}
+
+public class PdfSignerNoObjectStream : PdfSigner{
+    public PdfSignerNoObjectStream(PdfReader reader, Stream outputStream, StampingProperties properties) : base(reader, outputStream, properties) {
+    }
+
+    protected override PdfDocument InitDocument(PdfReader reader, PdfWriter writer, StampingProperties properties)    {
+        try   {
+            return base.InitDocument(reader, writer, properties);
+        }
+        finally   {
+            FieldInfo propertiesField = typeof(PdfWriter).GetField("properties", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic);
+            WriterProperties writerProperties = (WriterProperties)propertiesField.GetValue(writer);
+            writerProperties.SetFullCompressionMode(false);
+        }
+    }
 }
