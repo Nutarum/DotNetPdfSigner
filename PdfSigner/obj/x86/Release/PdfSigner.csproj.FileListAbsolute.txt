@@ -30,3 +30,37 @@ C:\Users\D804500\Desktop\RepositoriosGit\DotNetPdfSigner\PdfSigner\bin\x86\Relea
 C:\Users\D804500\Desktop\RepositoriosGit\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.csprojResolveAssemblyReference.cache
 C:\Users\D804500\Desktop\RepositoriosGit\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.exe
 C:\Users\D804500\Desktop\RepositoriosGit\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.pdb
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\PdfSigner.exe.config
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\PdfSigner.exe
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\PdfSigner.pdb
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\BouncyCastle.Crypto.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\Common.Logging.Core.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\Common.Logging.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.barcodes.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.forms.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.io.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.kernel.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.layout.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.pdfa.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.sign.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.styledxmlparser.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.svg.dll
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\BouncyCastle.Crypto.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\Common.Logging.pdb
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\Common.Logging.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\Common.Logging.Core.pdb
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\Common.Logging.Core.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.barcodes.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.forms.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.io.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.kernel.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.layout.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.pdfa.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.sign.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.styledxmlparser.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\bin\x86\Release\itext.svg.xml
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.csprojAssemblyReference.cache
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.csproj.CoreCompileInputs.cache
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.csproj.CopyComplete
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.exe
+C:\Users\NutPc\Desktop\Git\Mis repositorios\DotNetPdfSigner\PdfSigner\obj\x86\Release\PdfSigner.pdb
